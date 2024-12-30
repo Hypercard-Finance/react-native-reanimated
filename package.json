@@ -27,7 +27,7 @@
     "build:plugin": "cd plugin && yarn build",
     "circular-dependency-check": "yarn madge --extensions js,ts,tsx --circular src lib",
     "use-strict-check": "node ./scripts/validate-use-strict.js",
-    "prepack": "cp ../../README.md ./README.md",
+    "prepack": "echo 'Hey'",
     "postpack": "rm ./README.md"
   },
   "main": "lib/module/index",
